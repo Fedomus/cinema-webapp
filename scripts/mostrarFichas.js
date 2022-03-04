@@ -1,0 +1,3 @@
+mostrarDetalle();
+loadLinkNav();
+cargarCarrito();

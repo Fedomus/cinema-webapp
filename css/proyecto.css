@@ -1,0 +1,419 @@
+body{
+    background-color: black !important;
+    justify-content: center;
+}
+
+/* navbar*/
+
+
+.logo-img{
+    max-height: 40px;
+    padding-left: 20px;
+}
+
+.navbar{
+    padding-top:0px !important;
+    padding-bottom: 0px !important;
+    background-color: transparent ! important;
+}
+
+.container-fluid{
+    padding-left:0px !important;
+    background-color: #00adb5;
+}
+
+.imagenCarousel {
+    display:none;
+    width:100%;
+    height: 200px;
+    width: 500px;
+  }
+
+#carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.separacion{
+    border: 2px solid #c0c0c0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* buscador de peliculas*/
+
+.logogrande{
+    width:auto;
+    height:90px;
+}
+
+.buscador{
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+}
+
+.opcionesBusqueda{
+    min-width: 100%;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.titulo{
+    color:#c0c0c0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+#idiomas{
+    display: flex;
+    flex-direction: column;
+    color: silver;
+    
+}
+
+#formatos{
+    display: flex;
+    flex-direction: column;
+    color: silver;
+}
+
+#sucursales{
+    display: flex;
+    flex-direction: column;
+    color: silver;
+}
+
+.cartelera{
+    height:auto;
+    background-color:black;
+    width:70%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.pelicula{
+    padding: 10px;
+    text-align: center;
+}
+
+.pelicula :hover{
+    cursor: pointer;
+}
+
+.carousel{
+    padding-top:20px;
+}
+
+/*Seecion detallepelicula*/
+.detallepelicula{
+    max-width:90%;
+    margin:auto;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    color:silver;
+    text-align: center;
+}
+
+.espaciotitulo{
+    background-color:black;
+    color:silver;
+    padding:50px;
+    height:100%;
+    text-align:center;
+}
+
+.imagenfichaformulario{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin:auto;
+}
+
+.formulario{
+    color: turquoise;
+    width:40%;
+    height:450px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.btn-formulario{
+    padding-bottom: 30px;
+}
+
+.imagenfichasinopsis{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+}
+
+.sinopsis{
+    color:silver;
+    text-align: left;
+    border: 1px solid silver;
+    padding: 10px;
+}
+
+.imagenficha{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid silver;
+}
+
+.ficha{
+    color:silver;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    border: 1px solid silver;
+    padding-left:10px;
+    padding-top:10px;
+    width: 100%; 
+    height: 100%;
+}
+
+.imagen{
+    height: 280px;
+    width:auto;
+}
+
+.video{
+    width:70%;
+    height:400px;
+}
+
+.trailer{
+    color:silver;
+    margin:auto;
+    padding:20px;
+    text-align: center;
+}
+
+
+/*footer*/
+
+footer{
+    height: 100%;
+    padding: 50px;
+}
+
+
+
+
+/* cine*/
+
+.seccionAsientos{
+    display: flex;
+}
+
+.asiento{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display:flex;
+    margin:2px;
+}
+
+.asiento :hover{
+    background-color: red;
+}
+
+.espacioAsientos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.detalleCompra{
+    color:silver;
+}
+
+.confirmarAsientos{
+    color:silver;
+    margin-right: 25%;
+}
+
+.cine{
+    color:silver;
+    height: 300px;
+    width: 280px;
+    border: 2px solid silver;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.pantalla{
+    height: 20px;
+    width: 150px;
+    border: 1px solid silver;
+    background-color:silver;
+    margin:auto;
+}
+
+.filas{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:250px;
+    justify-content:baseline;
+    align-items: center;
+    margin:5px;
+    margin-bottom: 0px;
+}
+
+
+
+span{
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+}
+
+
+
+.detalleCompra{
+    width:70%;
+    margin:auto;
+}
+.form-check{
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+
+.form-check :hover{
+    cursor: pointer;
+}
+
+.form-select{
+    width:50%;
+    margin:auto;
+}
+
+
+.btn-busqueda{
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid #00adb5 !important;
+    height:40px;
+}
+
+.seccionPago{
+    display: flex;
+}
+
+.detalleFuncion{
+    border-left: 1px solid white;
+    text-align: center;
+    color: white;
+    width: 40%;
+}
+
+.espacioPago{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    color: white;
+    margin:auto;
+    padding: 0px;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+#espacioPago{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detalleCompra{
+    color: white;
+    background-color: black;
+    height: 250px;
+}
+
+
+
+#botonConfirmarAsientos{
+    margin-bottom: 20px;
+}
+
+
+.espaciologo{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+#registroDatosPersonales{
+    display: flex;
+    flex-direction: column;
+}
+
+
+label.form-check-label{
+    width: 600px !important;
+}
+
+#linkNav{
+    display: flex;
+}
+
+#logOut{
+    background-color: #00adb5;
+    border-color: #00adb5;
+    color: black;
+    border-left: 1px solid black;
+}
+
+#miCompra{
+    background-color: #00adb5 !important;
+    border-color: #00adb5 !important;
+    color: black !important;
+    border-left: 1px solid black !important;
+}
+
+#usuario{
+    background-color: #00adb5;
+    border-color: #00adb5;
+    color: black;
+    border-left: 1px solid black;
+}
+
+#botonLogin{
+    background-color: #00adb5;
+    border-color: #00adb5;
+    color: black;
+    border-left: 1px solid black;
+}
+
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+}
