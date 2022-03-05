@@ -497,8 +497,8 @@ function login(){
 
 function interfazModoPago(){
       const {monto} = funcionAgregada
-      let monto3cuotas = monto*0.2;
-      let monto6cuotas = monto * 0.4;
+      let monto3cuotas = monto + monto*0.2;
+      let monto6cuotas = monto + monto * 0.4;
       // let cliente = JSON.parse(localStorage.getItem('Cliente'));
       document.querySelector('#labelUnPago').innerHTML=`Un pago de $${monto}`
       document.querySelector('#labelDosPagos').innerHTML=`2 pagos sin interés de $${monto/2}`
