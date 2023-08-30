@@ -1,4 +1,4 @@
-# Curso: JavaScript - CoderHouse
+## Curso: JavaScript - CoderHouse
 ***
 ### Trabajo final con el que aprobé el curso
 ***
